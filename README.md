@@ -26,8 +26,8 @@ Abrir o terminal (cmd, powershell, ...) e abrir a pasta que baixou o arquivo, e 
 
 composer install && npm install <br>
 php artisan migrate <br>
-npm run build \n
-./vendor/bin/phpunit  (para ver se o teste unitario desenvolvido funciona, o teste tenta inserir infos no banco parecido de como vem no arquivo) \n
-php artisan serve \n
+npm run build <br>
+./vendor/bin/phpunit  (para ver se o teste unitario desenvolvido funciona, o teste tenta inserir infos no banco parecido de como vem no arquivo) <br>
+php artisan serve <br>
 
 e dar um crtl + click no link que aparecer (geralmente 127.0.0.1:8000)
