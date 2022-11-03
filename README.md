@@ -24,8 +24,8 @@ apenas .env e removendo assim a parte do .example
 
 Abrir o terminal (cmd, powershell, ...) e abrir a pasta que baixou o arquivo, e rodar os seguintes comandos (cada linha e um):
 
-composer install && npm install \n
-php artisan migrate \n
+composer install && npm install <br>
+php artisan migrate <br>
 npm run build \n
 ./vendor/bin/phpunit  (para ver se o teste unitario desenvolvido funciona, o teste tenta inserir infos no banco parecido de como vem no arquivo) \n
 php artisan serve \n
